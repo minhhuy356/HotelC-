@@ -1,0 +1,15 @@
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\BusinessLogic.dll.config
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\BusinessLogic.dll
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\BusinessLogic.pdb
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\DataLayer.dll
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\EntityFramework.dll
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\DataLayer.pdb
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\DataLayer.dll.config
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\EntityFramework.xml
+D:\Learn\C#\Hotel\BusinessLogic\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn\C#\Hotel\BusinessLogic\obj\Debug\BusinessLayer.csproj.AssemblyReference.cache
+D:\Learn\C#\Hotel\BusinessLogic\obj\Debug\BusinessLayer.csproj.CoreCompileInputs.cache
+D:\Learn\C#\Hotel\BusinessLogic\obj\Debug\BusinessLogic.dll
+D:\Learn\C#\Hotel\BusinessLogic\obj\Debug\BusinessLogic.pdb
+D:\Learn\C#\Hotel\BusinessLogic\obj\Debug\Business.EA331CBA.Up2Date

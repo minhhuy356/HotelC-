@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="HOTELSModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="HOTELSEntities1" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tb_DatPhong" EntityType="HOTELSModel.tb_DatPhong" />
+    <EntitySet Name="tb_DatPhong_CT" EntityType="HOTELSModel.tb_DatPhong_CT" />
+    <EntitySet Name="tb_DonVi" EntityType="HOTELSModel.tb_DonVi" />
+    <EntitySet Name="tb_Func" EntityType="HOTELSModel.tb_Func" />
+    <EntitySet Name="tb_KhachHang" EntityType="HOTELSModel.tb_KhachHang" />
+    <EntitySet Name="tb_KhachSan" EntityType="HOTELSModel.tb_KhachSan" />
+    <EntitySet Name="tb_LoaiPhong" EntityType="HOTELSModel.tb_LoaiPhong" />
+    <EntitySet Name="tb_Phong_ThietBi" EntityType="HOTELSModel.tb_Phong_ThietBi" />
+    <EntitySet Name="tb_SanPham" EntityType="HOTELSModel.tb_SanPham" />
+    <EntitySet Name="tb_Tang" EntityType="HOTELSModel.tb_Tang" />
+    <EntitySet Name="tb_ThietBi" EntityType="HOTELSModel.tb_ThietBi" />
+    <EntitySet Name="tb_Users" EntityType="HOTELSModel.tb_Users" />
+    <AssociationSet Name="FK_tb_DatPhong_CT_tb_DatPhong" Association="HOTELSModel.FK_tb_DatPhong_CT_tb_DatPhong">
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+      <End Role="tb_DatPhong_CT" EntitySet="tb_DatPhong_CT" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_DatPhong_tb_DonVi" Association="HOTELSModel.FK_tb_DatPhong_tb_DonVi">
+      <End Role="tb_DonVi" EntitySet="tb_DonVi" />
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_DatPhong_tb_KhachHang" Association="HOTELSModel.FK_tb_DatPhong_tb_KhachHang">
+      <End Role="tb_KhachHang" EntitySet="tb_KhachHang" />
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_DatPhong_tb_KhachSan" Association="HOTELSModel.FK_tb_DatPhong_tb_KhachSan">
+      <End Role="tb_KhachSan" EntitySet="tb_KhachSan" />
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_DatPhong_tb_SanPham" Association="HOTELSModel.FK_tb_DatPhong_tb_SanPham">
+      <End Role="tb_SanPham" EntitySet="tb_SanPham" />
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_DatPhong_tb_Users" Association="HOTELSModel.FK_tb_DatPhong_tb_Users">
+      <End Role="tb_Users" EntitySet="tb_Users" />
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_Phong_ThietBi_tb_ThietBi" Association="HOTELSModel.FK_tb_Phong_ThietBi_tb_ThietBi">
+      <End Role="tb_ThietBi" EntitySet="tb_ThietBi" />
+      <End Role="tb_Phong_ThietBi" EntitySet="tb_Phong_ThietBi" />
+    </AssociationSet>
+    <EntitySet Name="tb_Phong" EntityType="HOTELSModel.tb_Phong" />
+    <AssociationSet Name="FK_tb_DatPhong_tb_Phong" Association="HOTELSModel.FK_tb_DatPhong_tb_Phong">
+      <End Role="tb_Phong" EntitySet="tb_Phong" />
+      <End Role="tb_DatPhong" EntitySet="tb_DatPhong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_Phong_tb_LoaiPhong" Association="HOTELSModel.FK_tb_Phong_tb_LoaiPhong">
+      <End Role="tb_LoaiPhong" EntitySet="tb_LoaiPhong" />
+      <End Role="tb_Phong" EntitySet="tb_Phong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_Phong_tb_Tang" Association="HOTELSModel.FK_tb_Phong_tb_Tang">
+      <End Role="tb_Tang" EntitySet="tb_Tang" />
+      <End Role="tb_Phong" EntitySet="tb_Phong" />
+    </AssociationSet>
+    <AssociationSet Name="FK_tb_Phong_ThietBi_tb_Phong" Association="HOTELSModel.FK_tb_Phong_ThietBi_tb_Phong">
+      <End Role="tb_Phong" EntitySet="tb_Phong" />
+      <End Role="tb_Phong_ThietBi" EntitySet="tb_Phong_ThietBi" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tb_DatPhong">
+    <Key>
+      <PropertyRef Name="IDDP" />
+    </Key>
+    <Property Name="IDDP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDKH" Type="Int32" Nullable="false" />
+    <Property Name="IDPHONG" Type="Int32" Nullable="false" />
+    <Property Name="NGAYDAT" Type="DateTime" Precision="3" />
+    <Property Name="NGAYTRA" Type="DateTime" Precision="3" />
+    <Property Name="SOTIEN" Type="Double" />
+    <Property Name="SONGUOIO" Type="Int32" />
+    <Property Name="ID_USER" Type="Int32" Nullable="false" />
+    <Property Name="IDSP" Type="Int32" Nullable="false" />
+    <Property Name="MAKS" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="MADVI" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="STATUS" Type="Boolean" />
+    <Property Name="THEODOAN" Type="Boolean" />
+    <Property Name="GHICHU" Type="String" MaxLength="2000" FixedLength="false" Unicode="true" />
+    <Property Name="CREATED_DATE" Type="DateTime" Precision="0" />
+    <Property Name="UPDATE_DATE" Type="DateTime" Precision="0" />
+    <Property Name="UPDATE_BY" Type="DateTime" Precision="0" />
+    <NavigationProperty Name="tb_DatPhong_CT" Relationship="HOTELSModel.FK_tb_DatPhong_CT_tb_DatPhong" FromRole="tb_DatPhong" ToRole="tb_DatPhong_CT" />
+    <NavigationProperty Name="tb_DonVi" Relationship="HOTELSModel.FK_tb_DatPhong_tb_DonVi" FromRole="tb_DatPhong" ToRole="tb_DonVi" />
+    <NavigationProperty Name="tb_KhachHang" Relationship="HOTELSModel.FK_tb_DatPhong_tb_KhachHang" FromRole="tb_DatPhong" ToRole="tb_KhachHang" />
+    <NavigationProperty Name="tb_KhachSan" Relationship="HOTELSModel.FK_tb_DatPhong_tb_KhachSan" FromRole="tb_DatPhong" ToRole="tb_KhachSan" />
+    <NavigationProperty Name="tb_SanPham" Relationship="HOTELSModel.FK_tb_DatPhong_tb_SanPham" FromRole="tb_DatPhong" ToRole="tb_SanPham" />
+    <NavigationProperty Name="tb_Users" Relationship="HOTELSModel.FK_tb_DatPhong_tb_Users" FromRole="tb_DatPhong" ToRole="tb_Users" />
+    <NavigationProperty Name="tb_Phong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_Phong" FromRole="tb_DatPhong" ToRole="tb_Phong" />
+  </EntityType>
+  <EntityType Name="tb_DatPhong_CT">
+    <Key>
+      <PropertyRef Name="IDDPCT" />
+    </Key>
+    <Property Name="IDDPCT" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDDP" Type="Int32" />
+    <Property Name="IDPHONG" Type="Int32" />
+    <Property Name="SONGAYO" Type="Int32" />
+    <Property Name="DONGIA" Type="Int32" />
+    <Property Name="THANHTIEN" Type="Double" />
+    <Property Name="NGAY" Type="DateTime" Precision="3" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_CT_tb_DatPhong" FromRole="tb_DatPhong_CT" ToRole="tb_DatPhong" />
+  </EntityType>
+  <EntityType Name="tb_DonVi">
+    <Key>
+      <PropertyRef Name="MADVI" />
+    </Key>
+    <Property Name="MADVI" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="TENDVI" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="MAKS" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_DonVi" FromRole="tb_DonVi" ToRole="tb_DatPhong" />
+  </EntityType>
+  <EntityType Name="tb_Func">
+    <Key>
+      <PropertyRef Name="FUNC_CODE" />
+      <PropertyRef Name="SORT" />
+    </Key>
+    <Property Name="FUNC_CODE" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SORT" Type="Int32" Nullable="false" />
+    <Property Name="DESCRIPTION" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="ISGROUP" Type="Boolean" />
+    <Property Name="PARENT" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MENU" Type="Boolean" />
+    <Property Name="TIPS" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="tb_KhachHang">
+    <Key>
+      <PropertyRef Name="IDKH" />
+    </Key>
+    <Property Name="IDKH" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="HOTEN" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="CCCD" Type="String" MaxLength="12" FixedLength="false" Unicode="true" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="GIOITINH" Type="Boolean" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_KhachHang" FromRole="tb_KhachHang" ToRole="tb_DatPhong" />
+  </EntityType>
+  <EntityType Name="tb_KhachSan">
+    <Key>
+      <PropertyRef Name="MAKS" />
+    </Key>
+    <Property Name="MAKS" Type="String" Nullable="false" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="TENKS" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
+    <Property Name="DIENTHOAI" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+    <Property Name="EMAIL" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DIACHI" Type="String" MaxLength="500" FixedLength="false" Unicode="true" />
+    <Property Name="DISABLE" Type="Boolean" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_KhachSan" FromRole="tb_KhachSan" ToRole="tb_DatPhong" />
+  </EntityType>
+  <EntityType Name="tb_LoaiPhong">
+    <Key>
+      <PropertyRef Name="IDLOAIPHONG" />
+    </Key>
+    <Property Name="IDLOAIPHONG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENLOAIPHONG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DONGIA" Type="Double" />
+    <Property Name="SONGUOI" Type="Int32" />
+    <Property Name="SOGIUONG" Type="Int32" />
+    <NavigationProperty Name="tb_Phong" Relationship="HOTELSModel.FK_tb_Phong_tb_LoaiPhong" FromRole="tb_LoaiPhong" ToRole="tb_Phong" />
+  </EntityType>
+  <EntityType Name="tb_Phong_ThietBi">
+    <Key>
+      <PropertyRef Name="IDPHONG" />
+      <PropertyRef Name="IDTB" />
+    </Key>
+    <Property Name="IDPHONG" Type="Int32" Nullable="false" />
+    <Property Name="IDTB" Type="Int32" Nullable="false" />
+    <Property Name="SOLUONG" Type="Int32" />
+    <NavigationProperty Name="tb_ThietBi" Relationship="HOTELSModel.FK_tb_Phong_ThietBi_tb_ThietBi" FromRole="tb_Phong_ThietBi" ToRole="tb_ThietBi" />
+    <NavigationProperty Name="tb_Phong" Relationship="HOTELSModel.FK_tb_Phong_ThietBi_tb_Phong" FromRole="tb_Phong_ThietBi" ToRole="tb_Phong" />
+  </EntityType>
+  <EntityType Name="tb_SanPham">
+    <Key>
+      <PropertyRef Name="IDSP" />
+    </Key>
+    <Property Name="IDSP" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENSP" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DONGIA" Type="Double" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_SanPham" FromRole="tb_SanPham" ToRole="tb_DatPhong" />
+  </EntityType>
+  <EntityType Name="tb_Tang">
+    <Key>
+      <PropertyRef Name="IDTANG" />
+    </Key>
+    <Property Name="IDTANG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENTANG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="tb_Phong" Relationship="HOTELSModel.FK_tb_Phong_tb_Tang" FromRole="tb_Tang" ToRole="tb_Phong" />
+  </EntityType>
+  <EntityType Name="tb_ThietBi">
+    <Key>
+      <PropertyRef Name="IDTB" />
+    </Key>
+    <Property Name="IDTB" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENTB" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="DONGIA" Type="Double" />
+    <NavigationProperty Name="tb_Phong_ThietBi" Relationship="HOTELSModel.FK_tb_Phong_ThietBi_tb_ThietBi" FromRole="tb_ThietBi" ToRole="tb_Phong_ThietBi" />
+  </EntityType>
+  <EntityType Name="tb_Users">
+    <Key>
+      <PropertyRef Name="ID_USER" />
+    </Key>
+    <Property Name="ID_USER" Type="Int32" Nullable="false" />
+    <Property Name="FULLNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="USERNAME" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="PASSWD" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MAKS" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="MADVI" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ISGROUP" Type="Boolean" />
+    <Property Name="DISABLE" Type="Boolean" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_Users" FromRole="tb_Users" ToRole="tb_DatPhong" />
+  </EntityType>
+  <Association Name="FK_tb_DatPhong_CT_tb_DatPhong">
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="0..1" />
+    <End Type="HOTELSModel.tb_DatPhong_CT" Role="tb_DatPhong_CT" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_DatPhong">
+        <PropertyRef Name="IDDP" />
+      </Principal>
+      <Dependent Role="tb_DatPhong_CT">
+        <PropertyRef Name="IDDP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_DatPhong_tb_DonVi">
+    <End Type="HOTELSModel.tb_DonVi" Role="tb_DonVi" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_DonVi">
+        <PropertyRef Name="MADVI" />
+      </Principal>
+      <Dependent Role="tb_DatPhong">
+        <PropertyRef Name="MADVI" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_DatPhong_tb_KhachHang">
+    <End Type="HOTELSModel.tb_KhachHang" Role="tb_KhachHang" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_KhachHang">
+        <PropertyRef Name="IDKH" />
+      </Principal>
+      <Dependent Role="tb_DatPhong">
+        <PropertyRef Name="IDKH" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_DatPhong_tb_KhachSan">
+    <End Type="HOTELSModel.tb_KhachSan" Role="tb_KhachSan" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_KhachSan">
+        <PropertyRef Name="MAKS" />
+      </Principal>
+      <Dependent Role="tb_DatPhong">
+        <PropertyRef Name="MAKS" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_DatPhong_tb_SanPham">
+    <End Type="HOTELSModel.tb_SanPham" Role="tb_SanPham" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_SanPham">
+        <PropertyRef Name="IDSP" />
+      </Principal>
+      <Dependent Role="tb_DatPhong">
+        <PropertyRef Name="IDSP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_DatPhong_tb_Users">
+    <End Type="HOTELSModel.tb_Users" Role="tb_Users" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Users">
+        <PropertyRef Name="ID_USER" />
+      </Principal>
+      <Dependent Role="tb_DatPhong">
+        <PropertyRef Name="ID_USER" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_Phong_ThietBi_tb_ThietBi">
+    <End Type="HOTELSModel.tb_ThietBi" Role="tb_ThietBi" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_Phong_ThietBi" Role="tb_Phong_ThietBi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_ThietBi">
+        <PropertyRef Name="IDTB" />
+      </Principal>
+      <Dependent Role="tb_Phong_ThietBi">
+        <PropertyRef Name="IDTB" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="tb_Phong">
+    <Key>
+      <PropertyRef Name="IDPHONG" />
+    </Key>
+    <Property Name="IDPHONG" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="TENPHONG" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TRANGTHAI" Type="Boolean" />
+    <Property Name="IDTANG" Type="Int32" Nullable="false" />
+    <Property Name="IDLOAIPHONG" Type="Int32" Nullable="false" />
+    <Property Name="STATUS" Type="Boolean" />
+    <NavigationProperty Name="tb_DatPhong" Relationship="HOTELSModel.FK_tb_DatPhong_tb_Phong" FromRole="tb_Phong" ToRole="tb_DatPhong" />
+    <NavigationProperty Name="tb_LoaiPhong" Relationship="HOTELSModel.FK_tb_Phong_tb_LoaiPhong" FromRole="tb_Phong" ToRole="tb_LoaiPhong" />
+    <NavigationProperty Name="tb_Tang" Relationship="HOTELSModel.FK_tb_Phong_tb_Tang" FromRole="tb_Phong" ToRole="tb_Tang" />
+    <NavigationProperty Name="tb_Phong_ThietBi" Relationship="HOTELSModel.FK_tb_Phong_ThietBi_tb_Phong" FromRole="tb_Phong" ToRole="tb_Phong_ThietBi" />
+  </EntityType>
+  <Association Name="FK_tb_DatPhong_tb_Phong">
+    <End Type="HOTELSModel.tb_Phong" Role="tb_Phong" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_DatPhong" Role="tb_DatPhong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Phong">
+        <PropertyRef Name="IDPHONG" />
+      </Principal>
+      <Dependent Role="tb_DatPhong">
+        <PropertyRef Name="IDPHONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_Phong_tb_LoaiPhong">
+    <End Type="HOTELSModel.tb_LoaiPhong" Role="tb_LoaiPhong" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_Phong" Role="tb_Phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_LoaiPhong">
+        <PropertyRef Name="IDLOAIPHONG" />
+      </Principal>
+      <Dependent Role="tb_Phong">
+        <PropertyRef Name="IDLOAIPHONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_Phong_tb_Tang">
+    <End Type="HOTELSModel.tb_Tang" Role="tb_Tang" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_Phong" Role="tb_Phong" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Tang">
+        <PropertyRef Name="IDTANG" />
+      </Principal>
+      <Dependent Role="tb_Phong">
+        <PropertyRef Name="IDTANG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_tb_Phong_ThietBi_tb_Phong">
+    <End Type="HOTELSModel.tb_Phong" Role="tb_Phong" Multiplicity="1" />
+    <End Type="HOTELSModel.tb_Phong_ThietBi" Role="tb_Phong_ThietBi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_Phong">
+        <PropertyRef Name="IDPHONG" />
+      </Principal>
+      <Dependent Role="tb_Phong_ThietBi">
+        <PropertyRef Name="IDPHONG" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

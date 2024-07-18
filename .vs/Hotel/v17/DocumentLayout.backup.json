@@ -1,0 +1,222 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Learn\\C#\\Hotel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|d:\\learn\\c#\\hotel\\hotelmanagement\\frmtang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmtang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmketnoidb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmketnoidb.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmketnoidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmketnoidb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmdonvi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmloaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmloaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmmain.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmmain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmloaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmloaiphong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|D:\\Learn\\C#\\Hotel\\hotelmanagement\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{0BDB192F-0843-480F-AFB0-851581C227EF}|HotelManagement\\HotelManagement.csproj|solutionrelative:hotelmanagement\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmTang.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmTang.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmTang.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmTang.cs",
+              "RelativeToolTip": "HotelManagement\\frmTang.cs",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAAwA8AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:36:02.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmKetNoiDB.Designer.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKetNoiDB.Designer.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmKetNoiDB.Designer.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKetNoiDB.Designer.cs",
+              "RelativeToolTip": "HotelManagement\\frmKetNoiDB.Designer.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:35:49.775Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmKetNoiDB.cs [Design]",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKetNoiDB.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmKetNoiDB.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKetNoiDB.cs [Design]",
+              "RelativeToolTip": "HotelManagement\\frmKetNoiDB.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:35:46.653Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmDonVi.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmDonVi.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmDonVi.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmDonVi.cs",
+              "RelativeToolTip": "HotelManagement\\frmDonVi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:35:43.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmLoaiPhong.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmLoaiPhong.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmLoaiPhong.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmLoaiPhong.cs",
+              "RelativeToolTip": "HotelManagement\\frmLoaiPhong.cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAlwA4AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:35:25.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmMain.Designer.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmMain.Designer.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmMain.Designer.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmMain.Designer.cs",
+              "RelativeToolTip": "HotelManagement\\frmMain.Designer.cs",
+              "ViewState": "AgIAANEAAAAAAAAAAAApwN8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:35:33.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmKhachHang.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKhachHang.cs",
+              "RelativeToolTip": "HotelManagement\\frmKhachHang.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:19:13.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMain.cs [Design]",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmMain.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmMain.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmMain.cs [Design]",
+              "RelativeToolTip": "HotelManagement\\frmMain.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:16:43.804Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmKhachHang.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "HotelManagement\\frmKhachHang.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:16:36.318Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmLoaiPhong.cs [Design]",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmLoaiPhong.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmLoaiPhong.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmLoaiPhong.cs [Design]",
+              "RelativeToolTip": "HotelManagement\\frmLoaiPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T06:51:52.697Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmPhong.cs [Design]",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmPhong.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmPhong.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmPhong.cs [Design]",
+              "RelativeToolTip": "HotelManagement\\frmPhong.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T06:05:42.936Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmMain.cs",
+              "DocumentMoniker": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmMain.cs",
+              "RelativeDocumentMoniker": "HotelManagement\\frmMain.cs",
+              "ToolTip": "D:\\Learn\\C#\\Hotel\\HotelManagement\\frmMain.cs",
+              "RelativeToolTip": "HotelManagement\\frmMain.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHUAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T05:50:12.818Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

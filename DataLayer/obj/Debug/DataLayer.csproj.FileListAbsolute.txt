@@ -1,0 +1,12 @@
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\DataLayer.dll.config
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\DataLayer.dll
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\DataLayer.pdb
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\EntityFramework.dll
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\EntityFramework.SqlServer.dll
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\EntityFramework.xml
+D:\Learn\C#\Hotel\DataLayer\bin\Debug\EntityFramework.SqlServer.xml
+D:\Learn\C#\Hotel\DataLayer\obj\Debug\DataLayer.csproj.AssemblyReference.cache
+D:\Learn\C#\Hotel\DataLayer\obj\Debug\DataLayer.csproj.CoreCompileInputs.cache
+D:\Learn\C#\Hotel\DataLayer\obj\Debug\DataLayer.dll
+D:\Learn\C#\Hotel\DataLayer\obj\Debug\DataLayer.pdb
+D:\Learn\C#\Hotel\DataLayer\obj\Debug\DataLayer.csproj.Up2Date
